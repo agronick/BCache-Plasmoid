@@ -4,11 +4,18 @@ import os
 class BCStat:
 
       basePath = '/sys/block/sda/sda8/bcache/stats_day'
+      allTitles
   
       def __init__(self, title, file):
           self.title = title;
           self.name = file;
           self.last = "";
+          self.changed = True;
+          
+          if(not hasattr(BCStat, 'titleList')):
+              BCStat.titleList = [];
+              
+          BCStat.titleList.append(self.name);
           
       def getLocation(self):
           return BCStat.basePath + '/' + self.name;
@@ -23,9 +30,9 @@ class BCStat:
           self.file.close() 
         
       def isChanged(self, amount): 
-          changed = (amount != self.last)
-          self.last = amount;
-          return changed;
+          self.changed = (amount != self.last)
+          self.last = amount; 
+          return self.changed;
         
       def refresh(self):
           line = self.file.readline().strip()

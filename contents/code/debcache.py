@@ -43,29 +43,28 @@ class DEBCache(plasmascript.DataEngine):
     #   Put here all the code needed to initialize our plasmoid
     def init(self):
         self.setMinimumPollingInterval(333)
-        self.files = []; 
-        self.files.append(BCStat('Cache Hits', 'cache_hits'));
-        self.files.append(BCStat('Cache Misses', 'cache_misses'));
-        self.files.append(BCStat('Cache Hit Ratio', 'cache_hit_ratio'));
-
+        self.files = {}; 
+        self.files['cache_hits'] = BCStat('Cache Hits', 'cache_hits');
+        self.files['cache_misses'] = BCStat('Cache Misses', 'cache_misses');
+        self.files['cache_hit_ratio'] = (BCStat('Cache Hit Ratio', 'cache_hit_ratio');
+        
+   
+    
     #   sources method
     #   Used by applets to request what data source the DataEngine has
     def sources(self):
-        sources = ['present'. 'hits', 'misses', 'ratio']
-        return sources
+        return BCStat.titleList;
 
     #   sourceRequestEvent method
     #   Called when an applet access the DataEngine and request for
     #   a specific source ( name )
-    def sourceRequestEvent(self, name):
-    # Add custom code here
-        return self.updateSourceEvent(name)
+    def sourceRequestEvent(self, name): 
+        return self.files[name].refresh();
 
     #   updateSourceEvent method
     #   The main function for a DataEngine
     def updateSourceEvent(self, item):
-        cItem = item
-        return True
+        return self.files[name].last; 
 
     #   CreateDataEngine method
     #   Note: do NOT modify it, needed by Plasma

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment=
 Encoding=UTF-8
-Icon=
+Icon=package_system_backup
 Keywords=
 Name=DEBCache
 Type=Service
@@ -9,12 +9,12 @@ X-KDE-ParentApp=
 X-KDE-PluginInfo-Author=Kyle Agronick
 X-KDE-PluginInfo-Category=System Information
 X-KDE-PluginInfo-Email=agronick@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
 X-KDE-PluginInfo-License=GPL
 X-KDE-PluginInfo-Name=debcache
 X-KDE-PluginInfo-Version=1
 X-KDE-PluginInfo-Website=
 X-KDE-ServiceTypes=Plasma/DataEngine
 X-Plasma-API=python
-X-Plasma-DefaultSize=200,100
 X-Plasma-MainScript=code/debcache.py
 X-Plasma-RemoteLocation=

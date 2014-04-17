@@ -59,12 +59,14 @@ class DEBCache(plasmascript.DataEngine):
     #   Called when an applet access the DataEngine and request for
     #   a specific source ( name )
     def sourceRequestEvent(self, name): 
-        return self.files[name].refresh();
+        self.files[name].refresh();
+        return self.updateSourceEvent(name);
 
     #   updateSourceEvent method
     #   The main function for a DataEngine
     def updateSourceEvent(self, item):
-        return self.files[name].last; 
+        self.setData(item, "Value", self.files[item].last);
+        self.setData(item, "Title", self.files[item].title);
 
     #   CreateDataEngine method
     #   Note: do NOT modify it, needed by Plasma

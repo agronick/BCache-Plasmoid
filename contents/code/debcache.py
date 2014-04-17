@@ -67,7 +67,7 @@ class DEBCache(plasmascript.DataEngine):
     def updateSourceEvent(self, item):
         self.setData(item, "Value", self.files[item].last);
         self.setData(item, "Title", self.files[item].title);
-
+        return True;
     #   CreateDataEngine method
     #   Note: do NOT modify it, needed by Plasma
 def CreateDataEngine(parent):

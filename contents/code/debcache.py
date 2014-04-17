@@ -53,7 +53,7 @@ class DEBCache(plasmascript.DataEngine):
     #   sources method
     #   Used by applets to request what data source the DataEngine has
     def sources(self):
-        return BCStat.titleList;
+        return ['cache_hits', 'cache_misses', 'cache_hit_ratio'];
 
     #   sourceRequestEvent method
     #   Called when an applet access the DataEngine and request for

@@ -25,6 +25,7 @@ from PyKDE4.kdecore import *
 from PyKDE4 import plasmascript
 
 import time
+include('BCStat.py')
 
 
 
@@ -42,6 +43,10 @@ class DEBCache(plasmascript.DataEngine):
     #   Put here all the code needed to initialize our plasmoid
     def init(self):
         self.setMinimumPollingInterval(333)
+        self.files = []; 
+        self.files.append(BCStat('Cache Hits', 'cache_hits'));
+        self.files.append(BCStat('Cache Misses', 'cache_misses'));
+        self.files.append(BCStat('Cache Hit Ratio', 'cache_hit_ratio'));
 
     #   sources method
     #   Used by applets to request what data source the DataEngine has

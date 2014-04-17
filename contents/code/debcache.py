@@ -24,6 +24,10 @@ from PyQt4.QtCore import *
 from PyKDE4.kdecore import *
 from PyKDE4 import plasmascript
 
+import time
+
+
+
 class DEBCache(plasmascript.DataEngine):
     
     cItem = "";

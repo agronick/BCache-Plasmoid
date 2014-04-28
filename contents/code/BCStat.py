@@ -3,8 +3,7 @@ import os
 
 class BCStat:
 
-      basePath = '/sys/block/sda/sda8/bcache/stats_day'
-      allTitles
+      basePath = '/sys/block/sda/sda8/bcache/stats_day' 
   
       def __init__(self, title, file):
           self.title = title;
@@ -16,6 +15,7 @@ class BCStat:
               BCStat.titleList = [];
               
           BCStat.titleList.append(self.name);
+       
           
       def getLocation(self):
           return BCStat.basePath + '/' + self.name;
@@ -31,11 +31,13 @@ class BCStat:
         
       def isChanged(self, amount): 
           self.changed = (amount != self.last)
-          self.last = amount; 
+          self.last = amount;
           return self.changed;
         
       def refresh(self):
-          line = self.file.readline().strip()
+          self.open();
+          line = self.file.readline().strip();
+          self.close();
           return self.isChanged(line)
         
       def changedMessage(self):

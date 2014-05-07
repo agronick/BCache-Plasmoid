@@ -45,27 +45,31 @@ class DEBCache(plasmascript.DataEngine):
         self.setMinimumPollingInterval(333)
         self.setPollingInterval(1000)
         self.files = {}; 
-        self.files['../running'] = BCStat('Status', '../running');
-        self.files['cache_hits'] = BCStat('Cache Hits', 'cache_hits');
-        self.files['cache_misses'] = BCStat('Cache Misses', 'cache_misses');
-        self.files['cache_hit_ratio'] = BCStat('Cache Hit Ratio', 'cache_hit_ratio');
-        self.files['bypassed'] = BCStat('Bypassed Cache', 'bypassed');
-        self.files['cache_bypass_hits'] = BCStat('Cache Bypass Hits', 'cache_bypass_hits');
-        self.files['cache_bypass_misses'] = BCStat('Cache Bypass Misses', 'bypassed'); 
+        self.files['Status'] = BCStat('Status', '../running')
+        self.files['Cache Hits'] = BCStat('Cache Hits', 'cache_hits')
+        self.files['Cache Misses'] = BCStat('Cache Misses', 'cache_misses')
+        self.files['Cache Hit Ratio'] = BCStat('Cache Hit Ratio', 'cache_hit_ratio')
+        self.files['Bypassed Cache'] = BCStat('Bypassed Cache', 'bypassed')
+        self.files['Cache Bypass Hits'] = BCStat('Cache Bypass Hits', 'cache_bypass_hits')
+        self.files['Cache Bypass Misses'] = BCStat('Cache Bypass Misses', 'bypassed')
+        self.files['Usable Cache Percent'] = BCStat('Usable Cache Percent', 'cache_available_percent')
+        self.files['Usable Cache Percent'].useCsetUidPath()
+        self.files['Usable Cache Percent'].setAppend('%')
+        self.files['BTree Cache Size'] = BCStat('BTree Cache Size', 'btree_cache_size')
+        self.files['BTree Cache Size'].useCsetUidPath()
+        self.files['Root Btree Usage Percent'] = BCStat('Root Btree Usage Percent', 'root_usage_percent')
+        self.files['Root Btree Usage Percent'].useCsetUidPath()
         
-   
-    
-    #   sources method
-    #   Used by applets to request what data source the DataEngine has
+        
     def sources(self): 
-        return BCStat.titleList;
+        return BCStat.getTitleList()
 
     #   sourceRequestEvent method
     #   Called when an applet access the DataEngine and request for
     #   a specific source ( name )
     def sourceRequestEvent(self, name):  
-        self.files[str(name)].refresh();
-        return self.updateSourceEvent(name);
+        self.files[str(name)].refresh()
+        return self.updateSourceEvent(name)
 
     #   updateSourceEvent method
     #   The main function for a DataEngine

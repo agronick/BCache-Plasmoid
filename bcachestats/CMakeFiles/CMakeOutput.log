@@ -1,0 +1,500 @@
+The system is: Linux - 3.13.6-1-desktop - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/2.8.11.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/2.8.11.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1115673613/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1115673613.dir/build.make CMakeFiles/cmTryCompileExec1115673613.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1115673613.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1115673613.dir/testCCompiler.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTryCompileExec1115673613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1115673613.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1115673613.dir/testCCompiler.c.o  -o cmTryCompileExec1115673613 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1489405906/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1489405906.dir/build.make CMakeFiles/cmTryCompileExec1489405906.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1489405906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1489405906.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1489405906 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.8 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux
+Thread model: posix
+gcc version 4.8.1 20130909 [gcc-4_8-branch revision 202388] (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1489405906' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1489405906 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1489405906/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1489405906.dir/build.make CMakeFiles/cmTryCompileExec1489405906.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1489405906]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1489405906.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1489405906 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.8 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130909 [gcc-4_8-branch revision 202388] (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1489405906' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1489405906 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1489405906] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1489405906.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> [/usr/lib64]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.8;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3229732514/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3229732514.dir/build.make CMakeFiles/cmTryCompileExec3229732514.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec3229732514.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3229732514.dir/testCXXCompiler.cxx.o -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTryCompileExec3229732514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3229732514.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3229732514.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3229732514 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2331617142/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2331617142.dir/build.make CMakeFiles/cmTryCompileExec2331617142.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2331617142
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2331617142.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2331617142 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.8 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux
+Thread model: posix
+gcc version 4.8.1 20130909 [gcc-4_8-branch revision 202388] (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2331617142' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2331617142 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2331617142/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2331617142.dir/build.make CMakeFiles/cmTryCompileExec2331617142.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2331617142]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2331617142.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2331617142 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.8 --enable-ssp --disable-libssp --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.8 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 20130909 [gcc-4_8-branch revision 202388] (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.8/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2331617142' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.8/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2331617142 /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.8 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../.. CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2331617142] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2331617142.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.8]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/4.8/../../..] ==> [/usr/lib64]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.8;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+  implicit fwks: []
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2383132471/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2383132471.dir/build.make CMakeFiles/cmTryCompileExec2383132471.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2383132471.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2383132471.dir/CheckSymbolExists.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec2383132471
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2383132471.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2383132471.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2383132471 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+File /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so;/usr/lib64/libXft.so;/usr/lib64/libXau.so;/usr/lib64/libXdmcp.so;/usr/lib64/libXpm.so passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2277101122/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2277101122.dir/build.make CMakeFiles/cmTryCompileExec2277101122.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2277101122.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2277101122.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2277101122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2277101122.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2277101122.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2277101122 -rdynamic -lX11 -lXext -lXft -lXau -lXdmcp -lXpm 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1442045111/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1442045111.dir/build.make CMakeFiles/cmTryCompileExec1442045111.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1442045111.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec1442045111.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1442045111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1442045111.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec1442045111.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1442045111 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4127160488/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4127160488.dir/build.make CMakeFiles/cmTryCompileExec4127160488.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4127160488.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec4127160488.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4127160488
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4127160488.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec4127160488.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4127160488 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3054495295/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3054495295.dir/build.make CMakeFiles/cmTryCompileExec3054495295.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3054495295.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3054495295.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3054495295
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3054495295.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3054495295.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3054495295 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1898062751/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1898062751.dir/build.make CMakeFiles/cmTryCompileExec1898062751.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1898062751.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1898062751.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1898062751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1898062751.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1898062751.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1898062751 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2640027618/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2640027618.dir/build.make CMakeFiles/cmTryCompileExec2640027618.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2640027618.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec2640027618.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2640027618
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2640027618.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec2640027618.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2640027618 -rdynamic -lICE 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3046990005/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3046990005.dir/build.make CMakeFiles/cmTryCompileExec3046990005.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3046990005.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3046990005.dir/CheckIncludeFiles.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3046990005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3046990005.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3046990005.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3046990005 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3291369028/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3291369028.dir/build.make CMakeFiles/cmTryCompileExec3291369028.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3291369028.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3291369028.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3291369028
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3291369028.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3291369028.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3291369028 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+
+Determining if the _POSIX_TIMERS exist passed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec929200241/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec929200241.dir/build.make CMakeFiles/cmTryCompileExec929200241.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec929200241.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec929200241.dir/CheckSymbolExists.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec929200241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec929200241.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec929200241.dir/CheckSymbolExists.c.o  -o cmTryCompileExec929200241 -rdynamic -lrt 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+File /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _POSIX_TIMERS
+  return ((int*)(&_POSIX_TIMERS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test _OFFT_IS_64BIT succeded with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1402000634/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1402000634.dir/build.make CMakeFiles/cmTryCompileExec1402000634.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec1402000634.dir/src.cxx.o
+/usr/bin/c++    -D_OFFT_IS_64BIT   -o CMakeFiles/cmTryCompileExec1402000634.dir/src.cxx.o -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/src.cxx"
+Linking CXX executable cmTryCompileExec1402000634
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1402000634.dir/link.txt --verbose=1
+/usr/bin/c++      -D_OFFT_IS_64BIT    CMakeFiles/cmTryCompileExec1402000634.dir/src.cxx.o  -o cmTryCompileExec1402000634 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/types.h>
+ /* Check that off_t can represent 2**63 - 1 correctly.
+    We can't simply define LARGE_OFF_T to be 9223372036854775807,
+    since some C++ compilers masquerading as C compilers
+    incorrectly reject 9223372036854775807.  */
+#define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+
+  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+  int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_FPIE_SUPPORT succeded with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2659618596/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2659618596.dir/build.make CMakeFiles/cmTryCompileExec2659618596.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec2659618596.dir/src.cxx.o
+/usr/bin/c++    -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common  -DHAVE_FPIE_SUPPORT   -fPIE -o CMakeFiles/cmTryCompileExec2659618596.dir/src.cxx.o -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/src.cxx"
+Linking CXX executable cmTryCompileExec2659618596
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2659618596.dir/link.txt --verbose=1
+/usr/bin/c++     -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common  -DHAVE_FPIE_SUPPORT    CMakeFiles/cmTryCompileExec2659618596.dir/src.cxx.o  -o cmTryCompileExec2659618596 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test __KDE_HAVE_W_OVERLOADED_VIRTUAL succeded with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec886691503/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec886691503.dir/build.make CMakeFiles/cmTryCompileExec886691503.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec886691503.dir/src.cxx.o
+/usr/bin/c++    -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common  -D__KDE_HAVE_W_OVERLOADED_VIRTUAL   -Woverloaded-virtual -o CMakeFiles/cmTryCompileExec886691503.dir/src.cxx.o -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/src.cxx"
+Linking CXX executable cmTryCompileExec886691503
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec886691503.dir/link.txt --verbose=1
+/usr/bin/c++     -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common  -D__KDE_HAVE_W_OVERLOADED_VIRTUAL    CMakeFiles/cmTryCompileExec886691503.dir/src.cxx.o  -o cmTryCompileExec886691503 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test __KDE_HAVE_GCC_VISIBILITY succeded with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3169672192/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3169672192.dir/build.make CMakeFiles/cmTryCompileExec3169672192.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec3169672192.dir/src.cxx.o
+/usr/bin/c++    -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common -Woverloaded-virtual  -D__KDE_HAVE_GCC_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec3169672192.dir/src.cxx.o -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/src.cxx"
+Linking CXX executable cmTryCompileExec3169672192
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3169672192.dir/link.txt --verbose=1
+/usr/bin/c++     -Wnon-virtual-dtor -Wno-long-long -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-exceptions -DQT_NO_EXCEPTIONS -fno-check-new -fno-common -Woverloaded-virtual  -D__KDE_HAVE_GCC_VISIBILITY    CMakeFiles/cmTryCompileExec3169672192.dir/src.cxx.o  -o cmTryCompileExec3169672192 -rdynamic 
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}

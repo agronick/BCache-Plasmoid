@@ -24,12 +24,15 @@ class BCStat:
               BCStat.titleList = [];
               
           BCStat.titleList.append(title);
+           
       
       def setAppend(self, txt):
           self.append = txt
+          return self;
           
       def useCsetUidPath(self):
           self.basePath = glob.glob(BCStat.csetPath)[0]
+          return self;
        
       @staticmethod
       def getTitleList():

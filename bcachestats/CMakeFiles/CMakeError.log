@@ -1,0 +1,152 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3029903655/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3029903655.dir/build.make CMakeFiles/cmTryCompileExec3029903655.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3029903655.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3029903655.dir/CheckSymbolExists.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_WIN’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3029903655.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3029903655/fast] Error 2
+
+File /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1263528684/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1263528684.dir/build.make CMakeFiles/cmTryCompileExec1263528684.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1263528684.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1263528684.dir/CheckSymbolExists.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_QWS’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1263528684.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1263528684/fast] Error 2
+
+File /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1367557287/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1367557287.dir/build.make CMakeFiles/cmTryCompileExec1367557287.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1367557287.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1367557287.dir/CheckSymbolExists.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘Q_WS_MAC’ undeclared (first use in this function)
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1367557287.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1367557287/fast] Error 2
+
+File /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3229480186/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3229480186.dir/build.make CMakeFiles/cmTryCompileExec3229480186.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3229480186.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3229480186.dir/CheckSymbolExists.c.o   -c "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec3229480186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3229480186.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3229480186.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3229480186 -rdynamic 
+CMakeFiles/cmTryCompileExec3229480186.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3229480186] Error 1
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3229480186/fast] Error 2
+
+File /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2469394115/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2469394115.dir/build.make CMakeFiles/cmTryCompileExec2469394115.dir/build
+gmake[1]: Entering directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/kyle/Desktop/Plasmoid Development/bcachestats/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2469394115.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2469394115.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2469394115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2469394115.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2469394115.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2469394115 -rdynamic -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2469394115] Error 1
+gmake[1]: Leaving directory `/home/kyle/.kde4/share/apps/plasmate/bcachestats/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2469394115/fast] Error 2
+
+
